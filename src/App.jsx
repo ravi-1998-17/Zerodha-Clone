@@ -17,11 +17,12 @@ function App() {
         <Navbar />
         <Routes>
           <Route path='/' element={<HomePage />}></Route>
-          <Route path='/signup' element={<SignUp />}></Route>
+          <Route path='/home' element={<HomePage />}></Route>
           <Route path='/about' element={<AboutPage />}></Route>
           <Route path='/product' element={<ProductsPage />}></Route>
           <Route path='/pricing' element={<PricingPage />}></Route>
           <Route path='/support' element={<SupportPage />}></Route>
+          <Route path='/signup' element={<SignUp />}></Route>
           <Route path='*' element={<NoteFound />}></Route>
         </Routes>
         <Footer />
